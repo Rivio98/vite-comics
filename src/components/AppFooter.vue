@@ -59,7 +59,7 @@ export default {
                         </div>
                     </div>
                 </div>
-                <div class="col-6 position-relative logo-container">
+                <div class="col-6 logo-container">
                     <div class="content">
                         <img src="../assets/img/dc-logo-bg.png" class="logo" alt="">
                     </div>
@@ -69,23 +69,30 @@ export default {
     </div>
     <div class="bg-footer">
         <div class="container">
-            <div class="row">
+            <div class="row py-4">
                 <div class="col-6">
-                    <div class="content py-5">
+                    <div class="content">
                         <button class="btn text-light">SIGN-UP NOW!</button>
                     </div>
                 </div>
-                <div class="col-6">
-                    <div class="content">
-                        
+                <div class="col-6 align-content-center">
+                    <div class="content d-flex justify-content-center">
+                        <h4 class="text-primary m-0 mx-4">FOLLOW US</h4>
+                        <div>
+                        <img src="../assets/img/footer-facebook.png" alt="">
+                        <img src="../assets/img/footer-twitter.png" alt="">
+                        <img src="../assets/img/footer-youtube.png" alt="">
+                        <img src="../assets/img/footer-pinterest.png" alt="">
+                        <img src="../assets/img/footer-periscope.png" alt="">
                     </div>
-                </div>
+                 </div>
             </div>
         </div>
     </div>
+    </div>
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
 @use '../styles/partials/variables';
 
 .bg-img {
@@ -110,13 +117,16 @@ export default {
 
 .bg-footer {
     background-color: #303030;
-    z-index: 3;
 
     .btn{
     border-color: #0082F9;
     border-radius: 0;
     padding: 10px;
 }
+}
+
+.content img{
+    margin-right: 10px;
 }
 
 
