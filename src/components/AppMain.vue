@@ -14,7 +14,7 @@ export default {
             </div>
         </div>
     </div>
-    <div class="bg-lightblue p-5">
+    <div class="wrap bg-lightblue p-5">
         <div class="container">
             <div class="row justify-content-evenly text-light p-0 m-0">
                 <div class="col-2">
@@ -54,6 +54,7 @@ export default {
 </template>
 <style lang="scss">
     @use '../styles/partials/variables';
+
 
 .bg-lightblue{
         background-color: variables.$primary_color;
