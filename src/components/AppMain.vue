@@ -18,31 +18,31 @@ export default {
         <div class="container">
             <div class="row text-light p-0 m-0 row-col-5">
                 <div class="col">
-                    <div class="content">
+                    <div class="content text-center">
                         <img src="../assets/img/buy-comics-digital-comics.png" alt="">
                         <p class="d-inline-block">DIGITAL COMICS</p>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="content">
+                    <div class="content text-center">
                         <img src="../assets/img/buy-comics-merchandise.png" alt="">
                         <p class="d-inline-block">DC MERCHANDISE</p>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="content">
+                    <div class="content text-center">
                         <img src="../assets/img/buy-comics-subscriptions.png" alt="">
                         <p class="d-inline-block">SUBSCRIPTION</p>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="content">
+                    <div class="content text-center">
                         <img src="../assets/img/buy-comics-shop-locator.png" alt="">
                         <p class="d-inline-block">COMIC SHOP LOCATOR</p>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="content">
+                    <div class="content text-center">
                         <img src="../assets/img/buy-dc-power-visa.svg" alt="">  
                         <p class="d-inline-block">DC POWER VISA</p>
                     </div>
@@ -65,13 +65,14 @@ export default {
         align-content: center;
         align-self: center;
 
+
         p{
-            padding-left: 10px;
+            padding-left: 0px;
         }
 
         img {
-        max-width: 60px;
-        max-height: 60px;
+        max-width: 70px;
+        max-height: 70px;
         margin-right: 5px;
     }
     }
