@@ -16,32 +16,32 @@ export default {
     </div>
     <div class="wrap bg-lightblue p-5">
         <div class="container">
-            <div class="row justify-content-evenly text-light p-0 m-0">
-                <div class="col-2">
+            <div class="row text-light p-0 m-0 row-col-5">
+                <div class="col">
                     <div class="content">
                         <img src="../assets/img/buy-comics-digital-comics.png" alt="">
                         <p class="d-inline-block">DIGITAL COMICS</p>
                     </div>
                 </div>
-                <div class="col-2">
+                <div class="col">
                     <div class="content">
                         <img src="../assets/img/buy-comics-merchandise.png" alt="">
                         <p class="d-inline-block">DC MERCHANDISE</p>
                     </div>
                 </div>
-                <div class="col-2">
+                <div class="col">
                     <div class="content">
                         <img src="../assets/img/buy-comics-subscriptions.png" alt="">
                         <p class="d-inline-block">SUBSCRIPTION</p>
                     </div>
                 </div>
-                <div class="col-2">
+                <div class="col">
                     <div class="content">
                         <img src="../assets/img/buy-comics-shop-locator.png" alt="">
                         <p class="d-inline-block">COMIC SHOP LOCATOR</p>
                     </div>
                 </div>
-                <div class="col-2">
+                <div class="col">
                     <div class="content">
                         <img src="../assets/img/buy-dc-power-visa.svg" alt="">  
                         <p class="d-inline-block">DC POWER VISA</p>
@@ -59,11 +59,15 @@ export default {
 .bg-lightblue{
         background-color: variables.$primary_color;
 
-     .col-2{
+     .col{
         padding: 0px;
         margin: 0px;
         align-content: center;
         align-self: center;
+
+        p{
+            padding-left: 10px;
+        }
 
         img {
         max-width: 60px;
