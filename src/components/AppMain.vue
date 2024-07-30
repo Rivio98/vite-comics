@@ -1,5 +1,11 @@
 <script>
+import comics from '../data/dc-comics.json';
 export default {
+    data() {
+        return {
+            comics
+        }
+    }
 
 }
 </script>
@@ -11,8 +17,15 @@ export default {
         <div class="wrap bg-dark">
             <div class="container">
                 <div class="row">
-                    <div class="col-12 p-5">
-                        <p class="text-light">Content goes here</p>
+                    <div class="col-12 p-5 d-flex flex-wrap justify-content-center">
+                        <div v-for="(comic, index) in comics" :key="index" class="col-6 col-md-4 col-lg-2 mb-4 d-flex">
+                            <div class="card bg-transparent w-100 mx-3">
+                                <img :src="comic.thumb" :alt="comic.series" class="card-img-top img-fluid">
+                                <div>
+                                    <h5 class="text-white text-center">{{ comic.series }}</h5>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -62,6 +75,15 @@ export default {
     background-image: url('../assets/img/jumbotron.jpg');
     height: 450px;
     background-size: cover;
+}
+
+.card {
+    border: none;
+
+    img {
+        width: 200px;
+        height: 250px;
+    }
 }
 
 .bg-lightblue {
