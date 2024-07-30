@@ -78,14 +78,14 @@ export default {
 
 .bg-cartoon {
     background-image: url('../assets/img/jumbotron.jpg');
-    height: 550px;
+    height: 600px;
     background-size: cover;
     position: relative;
 
     .badge {
         position: absolute;
         bottom: -30px;
-        left: 550px
+        left: 640px
     }
 }
 
